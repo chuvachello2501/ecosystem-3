@@ -43,7 +43,7 @@
     left: 24px;
     width: 56px;
     height: 56px;
-    background: var(--bg-dark);
+    background: #132d4a;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@
     transform: translateX(-120%) translateY(20px);
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     pointer-events: none;
-    box-shadow: 0 8px 20px rgba(18, 73, 114, 0.35);
+    box-shadow: 0 8px 20px rgba(20, 78, 123, 0.35);
     border: 2px solid rgba(255,255,255,0.15);
   }
   
