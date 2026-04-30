@@ -1,0 +1,147 @@
+:root {
+    /* цвета для категорий и подкатегорий */
+
+    /* 3д принтеры */
+    --header-3d-printers: #FFC999;
+    --card-3d-printers: #F9E6D6;
+    --subcategory-3d-printers: #FEF9F5;
+
+    /* фермы 3д печати */
+    --header-farms: #EDB5BC;
+    --card-farms: #F6E1E4;
+    --subcategory-farms: #FDF6F7;
+
+    /* Производители 3д сканеров и ким */
+    --header-scaners: #A8D1D9;
+    --card-scaners: #D6EBEF;
+    --subcategory-scaners: #F6FBFC;
+
+    /* производители расходных материалов */
+    --header-materials: #A8C1D6;
+    --card-materials: #D6E4F0;
+    --subcategory-materials: #F5F8FB;
+
+    /* инженерный консалтинг */
+    --header-consulting: #cadcba;
+    --card-consulting: #E1EBD9;
+    --subcategory-consulting: #F4F7F1;
+
+    /* разработчики ПО */
+    --header-devs: #C4B8E8;
+    --card-devs: #E9E7F5;
+    --subcategory-devs: #F9F8FC;
+
+    /* образование и наука */
+    --header-edu: #F4E99E;
+    --card-edu: #FDF6D9;
+    --subcategory-edu: #FEFBF0;
+
+    /* оборудование для производства материалов */
+    --header-mpe: #D4B896;
+    --card-mpe: #F0E6D6;
+    --subcategory-mpe: #FBF8F4;
+
+    /* оборудование для постобработки */
+    --header-postproc: #9FDBDB;
+    --card-postproc: #D4F0F0;
+    --subcategory-postproc: #F2FAFA;
+}
+
+/* 3dprinters */
+.header-3dprinters {
+    background-color: var(--header-3d-printers);
+}
+.card-3dprinters {
+    background-color: var(--card-3d-printers);
+}
+.subcategory-3dprinters {
+    background-color: var(--subcategory-3d-printers);
+}
+
+/* farms */
+.header-farms {
+    background-color: var(--header-farms);
+}
+.card-farms {
+    background-color: var(--card-farms);
+}
+.subcategory-farms {
+    background-color: var(--subcategory-farms);
+}
+
+/* scaners */
+.header-scaners {
+    background-color: var(--header-scaners);
+}
+.card-scaners {
+    background-color: var(--card-scaners);
+}
+.subcategory-scaners {
+    background-color: var(--subcategory-scaners);
+}
+
+/* materials  */
+.header-materials {
+    background-color: var(--header-materials);
+}
+.card-materials {
+    background-color: var(--card-materials);
+}
+.subcategory-materials {
+    background-color: var(--subcategory-materials);
+}
+
+/* engineering consulting */
+.header-consulting {
+    background-color: var(--header-consulting);
+}
+.card-consulting {
+    background-color: var(--card-consulting);
+}
+.subcategory-consulting {
+    background-color: var(--subcategory-consulting);
+}
+
+/* software developers */
+.header-devs {
+    background-color: var(--header-devs);
+}
+.card-devs {
+    background-color: var(--card-devs);
+}
+.subcategory-devs {
+    background-color: var(--subcategory-devs);
+}
+
+/* education */
+.header-edu {
+    background-color: var(--header-edu);
+}
+.card-edu {
+    background-color: var(--card-edu);
+}
+.subcategory-edu {
+    background-color: var(--subcategory-edu);
+}
+
+/* mpe */
+.header-mpe {
+    background-color: var(--header-mpe);
+}
+.card-mpe {
+    background-color: var(--card-mpe);
+}
+.subcategory-mpe {
+    background-color: var(--subcategory-mpe);
+}
+
+/* post-processing equipment */
+.header-postproc {
+    background-color: var(--header-postproc);
+}
+.card-postproc {
+    background-color: var(--card-postproc);
+}
+.subcategory-postproc {
+    background-color: var(--subcategory-postproc);
+}
