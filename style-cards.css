@@ -1,4 +1,4 @@
-:root {
+.ecs3-ecosystem-standalone-project {
     /* цвета для категорий и подкатегорий */
 
     /* 3д принтеры */
@@ -48,100 +48,100 @@
 }
 
 /* 3dprinters */
-.header-3dprinters {
+.ecs3-header-3dprinters {
     background-color: var(--header-3d-printers);
 }
-.card-3dprinters {
+.ecs3-card-3dprinters {
     background-color: var(--card-3d-printers);
 }
-.subcategory-3dprinters {
+.ecs3-subcategory-3dprinters {
     background-color: var(--subcategory-3d-printers);
 }
 
 /* farms */
-.header-farms {
+.ecs3-header-farms {
     background-color: var(--header-farms);
 }
-.card-farms {
+.ecs3-card-farms {
     background-color: var(--card-farms);
 }
-.subcategory-farms {
+.ecs3-subcategory-farms {
     background-color: var(--subcategory-farms);
 }
 
 /* scaners */
-.header-scaners {
+.ecs3-header-scaners {
     background-color: var(--header-scaners);
 }
-.card-scaners {
+.ecs3-card-scaners {
     background-color: var(--card-scaners);
 }
-.subcategory-scaners {
+.ecs3-subcategory-scaners {
     background-color: var(--subcategory-scaners);
 }
 
 /* materials  */
-.header-materials {
+.ecs3-header-materials {
     background-color: var(--header-materials);
 }
-.card-materials {
+.ecs3-card-materials {
     background-color: var(--card-materials);
 }
-.subcategory-materials {
+.ecs3-subcategory-materials {
     background-color: var(--subcategory-materials);
 }
 
 /* engineering consulting */
-.header-consulting {
+.ecs3-header-consulting {
     background-color: var(--header-consulting);
 }
-.card-consulting {
+.ecs3-card-consulting {
     background-color: var(--card-consulting);
 }
-.subcategory-consulting {
+.ecs3-subcategory-consulting {
     background-color: var(--subcategory-consulting);
 }
 
 /* software developers */
-.header-devs {
+.ecs3-header-devs {
     background-color: var(--header-devs);
 }
-.card-devs {
+.ecs3-card-devs {
     background-color: var(--card-devs);
 }
-.subcategory-devs {
+.ecs3-subcategory-devs {
     background-color: var(--subcategory-devs);
 }
 
 /* education */
-.header-edu {
+.ecs3-header-edu {
     background-color: var(--header-edu);
 }
-.card-edu {
+.ecs3-card-edu {
     background-color: var(--card-edu);
 }
-.subcategory-edu {
+.ecs3-subcategory-edu {
     background-color: var(--subcategory-edu);
 }
 
 /* mpe */
-.header-mpe {
+.ecs3-header-mpe {
     background-color: var(--header-mpe);
 }
-.card-mpe {
+.ecs3-card-mpe {
     background-color: var(--card-mpe);
 }
-.subcategory-mpe {
+.ecs3-subcategory-mpe {
     background-color: var(--subcategory-mpe);
 }
 
 /* post-processing equipment */
-.header-postproc {
+.ecs3-header-postproc {
     background-color: var(--header-postproc);
 }
-.card-postproc {
+.ecs3-card-postproc {
     background-color: var(--card-postproc);
 }
-.subcategory-postproc {
+.ecs3-subcategory-postproc {
     background-color: var(--subcategory-postproc);
 }

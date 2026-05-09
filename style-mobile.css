@@ -1,43 +1,43 @@
 @media (min-width: 1451px) {
-    .floating-hub-btn {
+    .ecs3-floating-hub-btn {
         display: none;
     }
 }
 
 /* ===== МОБИЛЬНАЯ ВЕРСИЯ (<1440px) ===== */
 @media (max-width: 1450px) {
-  .page-wrapper {
+  .ecs3-page-wrapper {
     max-width: 100%;
     padding: 12px;
   }
   
-  .card {
+  .ecs3-card {
     min-width: 100%;
   }
 
   /* Переключаем сетку в 1 колонку */
-  .main-content {
+  .ecs3-main-content {
     grid-template-columns: 1fr;
   }
   
   /* Центральный блок (с диаграммой) уходит в самый верх */
-  .col-center {
+  .ecs3-col-center {
     order: -1;
   }
   
   /* Диаграмма строго по центру, не растягивается на всю ширину */
-  .central-hub {
+  .ecs3-central-hub {
     margin: 0 auto 16px;
     aspect-ratio: 1 / 1;
   }
   
   /* Боковые колонки занимают полную ширину */
-  .col {
+  .ecs3-col {
     width: 100%;
   }
   
   /* ===== ПЛАВАЮЩАЯ КНОПКА ===== */
-  .floating-hub-btn {
+  .ecs3-floating-hub-btn {
     position: fixed;
     bottom: 24px;
     left: 24px;
@@ -58,18 +58,18 @@
     border: 2px solid rgba(255,255,255,0.15);
   }
   
-  .floating-hub-btn.visible {
+  .ecs3-floating-hub-btn.ecs3-visible {
     opacity: 1;
     transform: translateX(0) translateY(0);
     pointer-events: auto;
   }
   
-  .floating-hub-btn:hover {
+  .ecs3-floating-hub-btn:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 24px rgba(18, 73, 114, 0.45);
   }
   
-  .floating-hub-btn svg {
+  .ecs3-floating-hub-btn svg {
     width: 24px;
     height: 24px;
     fill: #ffffff;
