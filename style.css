@@ -474,7 +474,11 @@
 }
 /* 
 @media (max-width: 1023px) {
-    .ecs3-page-wrapper {
+.ecs3-ecosystem-standalone-project a {
+    cursor: pointer;
+}
+
+.ecs3-page-wrapper {
         max-width: 100%;
         margin: 0;
         padding: 0;
