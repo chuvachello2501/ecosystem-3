@@ -245,7 +245,6 @@
     color: var(--ecosystem-text);
     border: 1px solid transparent;
     transition: all 0.15s ease;
-    cursor: default;
     white-space: nowrap;
 }
 
@@ -261,7 +260,6 @@
     color: var(--ecosystem-text);
     border: 1px solid transparent;
     transition: all 0.15s ease;
-    cursor: default;
     white-space: nowrap;
     background-color: black;
     filter: invert(1);
@@ -322,7 +320,6 @@
     color: var(--ecosystem-text);
     border: 1px solid transparent;
     transition: all 0.15s ease;
-    cursor: default;
     white-space: nowrap;
     font-weight: bold;
     text-wrap: wrap;
